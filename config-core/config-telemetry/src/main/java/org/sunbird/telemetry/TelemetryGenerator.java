@@ -241,7 +241,7 @@ public class TelemetryGenerator {
 		try {
 			event = mapper.writeValueAsString(telemetry);
 		} catch (Exception e) {
-			e.printStackTrace();
+		//	e.printStackTrace();
 		}
 		return event;
 	}
